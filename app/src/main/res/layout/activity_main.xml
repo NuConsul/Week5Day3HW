@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/etProductName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Product Name"/>
+
+    <EditText
+        android:id="@+id/etProductIDNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Product ID Number"/>
+
+
+    <EditText
+        android:id="@+id/etProductInventoryCount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Product Inventory Count"/>
+
+    <EditText
+        android:id="@+id/etProductDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Product Description"/>
+
+
+    <Button
+        android:id="@+id/BroadcastUserInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Broadcast Input"
+        android:onClick="onClick"/>
+
+</LinearLayout>
